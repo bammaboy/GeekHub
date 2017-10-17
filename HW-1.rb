@@ -2,7 +2,7 @@
 # returns the sum of its elements. For an empty array it should return zero.
 def sum(arr)
 	sum = 0
-	arr.each {|x| s+= x}
+	arr.each {|x| arr+= x}
 	sum
 end
 
@@ -23,8 +23,6 @@ end
 def sum_to_n?()
 
 end
-
-
 
 # Define a method hello(name) that takes a string representing a name and
 # returns the string "Hello, " concatenated with the name.
